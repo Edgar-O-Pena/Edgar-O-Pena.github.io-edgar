@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 37%, rgba(42,59,149,1) 86%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: 'Righteous', cursive; 
+    margin-bottom: 2px;
+
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: 2px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social {
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    margin: 20px 35px;
+}
+
+.social img {
+    width: 33px;
+}
+
+.link-list {
+    list-style: none;
+    margin: 50px 50px;
+    
+}
+
+.link-list li {
+    margin: 20px 0;
+}
+
+.link-list li a {
+    font-size: 16px;
+    font-family: 'Righteous', cursive;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white; 
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(54,77,204);;
+}
+
+.link-list li a span {
+    color: gray;
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-top: 10px;
+}
